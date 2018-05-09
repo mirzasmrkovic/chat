@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './css/index.css'
 import './css/colorFonts.css'
 import './css/media.css'
+import './css/common.css'
 
 import Header from './components/header.js'
 import ChatContent from './components/chatContent.js'

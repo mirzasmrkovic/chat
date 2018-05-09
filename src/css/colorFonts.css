@@ -1,4 +1,4 @@
-/*    Fonts   */
+/*  ---  Fonts  ---  */
 
 .raleway {
   font-family: 'Raleway', sans-serif !important;
@@ -12,7 +12,7 @@
   font-family: 'Titillium Web', sans-serif !important;
 }
 
-/*    Font sizes    */
+/*  ---  Font sizes  ---  */
 
 .title-xxxl {
   font-size: 1.8em;
@@ -33,11 +33,22 @@
   font-size: .7em;
 }
 
-/*    Font weight   */
+/*  ---  Font weight  ---  */
 
-.thin-title{
+
+.thin-title {
   font-weight: 300;
 }
-.bold-title{
+.bold-title {
   font-weight: 700;
+}
+
+/*  ---  Text transform  ---  */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
