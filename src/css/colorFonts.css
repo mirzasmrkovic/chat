@@ -1,0 +1,43 @@
+/*    Fonts   */
+
+.raleway {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.titillium {
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+/*    Font sizes    */
+
+.title-xxxl {
+  font-size: 1.8em;
+}
+.title-xl {
+  font-size: 1.5em;
+}
+.title-l {
+  font-size: 1.2em;
+}
+.title-m {
+  font-size: .9em;
+}
+.title-s {
+  font-size: .8em;
+}
+.title-xs {
+  font-size: .7em;
+}
+
+/*    Font weight   */
+
+.thin-title{
+  font-weight: 300;
+}
+.bold-title{
+  font-weight: 700;
+}

@@ -1,17 +1,168 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
+.flex-property {
+  display: -webkit-box !important;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box !important;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox !important;      /* TWEENER - IE 10 */
+  display: -webkit-flex !important;     /* NEW - Chrome */
+  display: flex !important;
+}
+
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-direction-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-direction-reverse {
+  flex-direction: row-reverse;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.margin-right-20 {
+  margin-right: 20px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+
 #chat {
-  background-color: lightBlue;
+  background-color: none;
   width: 100vw;
   height: 100vh;
   position: relative;
 }
 
 #header {
-  background-color: blue;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10;
   height: 60px;
+  background-color: #54728c;
+  color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+#content {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  bottom: 0;
+}
+
+.side-menu {
+  color: white;
+  background-color: #728096;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  width: 450px;
+}
+
+#chat-content {
+  width: 100%;
+  background-color: #8eacda;
 }
